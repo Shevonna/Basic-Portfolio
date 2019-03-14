@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(236, 229, 219, 0.267);
+    color: cornsilk;
+}
+.content {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(188, 214, 210);
+}
+
+.Nav {
+    background-color: rgb(180, 179, 179);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+li {
+    float: right;
+    
+}
+.row {
+    margin: 10px 50px;
+    width: 33.3%;
+}
+
+.links {
+    float: left;
+    width: 33.3%;
+}
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+img {
+    border-radius: 10%;
+}
+
+h3 {
+     color: rgb(240, 233, 233);
+}
